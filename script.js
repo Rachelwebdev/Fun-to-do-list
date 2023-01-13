@@ -31,6 +31,8 @@ const addNewItem = () => {
 
 // Delete items from list
 
+// Clear List
+
 // Event Listeners
 AddButton.addEventListener("click", () => {
   addNewItem();

@@ -16,6 +16,7 @@ body {
 
 h1 {
   padding: 2rem;
+  text-align: center;
 }
 
 .date {
@@ -59,8 +60,9 @@ p {
 }
 
 .single-task {
+  max-width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   column-gap: 3rem;
 }
