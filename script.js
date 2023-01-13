@@ -8,3 +8,21 @@ const dateToday = document.querySelector(".date");
 // Display Current date
 const date = new Date().toLocaleDateString();
 dateToday.innerHTML = date;
+
+// Add new item in the list
+const addNewItem = () => {
+  let inputValue = inputField.value;
+  console.log(inputValue);
+  const singleListDisplay = `    
+      <div class="single-task">
+          <li class="item">${inputValue}</li>
+          <div class="button-icons">
+            <button><i class="fa-solid fa-square-check"></i></button>
+            <button><i class="fa-solid fa-trash"></i></button>
+          </div>
+        </div>
+`;
+
+  listContainer.insertAdjacentHTML("beforeend", singleListDisplay);
+  inputField.value = "";
+};
