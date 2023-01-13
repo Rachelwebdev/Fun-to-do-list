@@ -60,7 +60,6 @@ p {
 }
 
 .single-task {
-  max-width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
