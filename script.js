@@ -27,6 +27,10 @@ const addNewItem = () => {
   inputField.value = "";
 };
 
+// Mark items as completed
+
+// Delete items from list
+
 // Event Listeners
 AddButton.addEventListener("click", () => {
   addNewItem();
