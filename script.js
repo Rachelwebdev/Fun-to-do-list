@@ -33,6 +33,8 @@ const addNewItem = () => {
 
 // Clear List
 
+// if field is empty give an alert or disable button
+
 // Event Listeners
 AddButton.addEventListener("click", () => {
   addNewItem();
