@@ -26,3 +26,14 @@ const addNewItem = () => {
   listContainer.insertAdjacentHTML("beforeend", singleListDisplay);
   inputField.value = "";
 };
+
+// Event Listeners
+AddButton.addEventListener("click", () => {
+  addNewItem();
+});
+
+inputField.addEventListener("keydown", (event) => {
+  if (event.code === "Backspace" || event.code === "Enter") {
+    addNewItem();
+  }
+});
